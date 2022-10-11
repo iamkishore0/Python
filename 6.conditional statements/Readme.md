@@ -33,3 +33,12 @@
         print('B')
       else:
         print('no matches found')
+        
+        
+## Conditional Operators
+     >  Greater Than
+     <  Lesser Than
+     >= Greater than or Equal to
+     <= Lesser than or Equal to
+     == Equal to
+     != Not equal to
