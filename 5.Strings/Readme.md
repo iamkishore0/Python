@@ -56,6 +56,11 @@
     a = 'my name is "ksihore"'
     a = "my name is /"ksihore"/"
     
+## Back Slash
+
+   a = 'Hello /nWorld'
+   
+   
 ## 
      
      
