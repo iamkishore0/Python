@@ -10,3 +10,9 @@
       
       for i in range(9)
          print('Hello', i)
+
+      for i in "abcdefghijklmn"
+         print('Hello')
+         
+      for i in "abcdefghijklmn"
+         print('Hello', i)
