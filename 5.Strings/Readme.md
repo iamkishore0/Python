@@ -80,3 +80,6 @@
     "z" in a
     "Hello" in a
     "Jello" in a
+    "Hello" not in a
+    "Hello" not in a.lower()
+    "World" in a.upper()
