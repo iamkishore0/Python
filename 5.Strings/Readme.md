@@ -61,6 +61,22 @@
     a = 'Hello /nWorld'
    
    
-## 
+## String Functions
+    a = '  Hello World  '
+    
+    a.upper()            #captilize
+    a.lower()            #smaller
+    a.strip()            #removes starting and ending spaces
+    len(a)               #prints length of string
+    len(a.strip())
+    a.count("l")         #counts no. of l's in string
+    a.replace("H","J")   #Replace a string
+    a.split()            #split a string in to two, makes a list
      
-     
+## True or False
+    a = "Hello World"
+    
+    "l" in a
+    "z" in a
+    "Hello" in a
+    "Jello" in a
