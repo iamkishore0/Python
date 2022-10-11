@@ -16,7 +16,7 @@
      a = 'Hello'
      b = 'World'
      
-     c = (a+b)
+     c = a+b
      
      print(c)
      print(a+a)
@@ -27,4 +27,28 @@
      print(c*6)
      
 ## Concatenation with Data Conversions
+     a = 'my name is: '
+     b = 25
+     
+     c = a+b        #error, Concatenating an integer with string is not possible   
+     c = a+str(b)   #converting int to string
+     print(c)
+     
+     
+## Format method
+    region = 'Iam from {}'
+    b = 'Asia'
+    output = region.format(a)
+    print(output)
+    
+    
+    region = 'are you from {}, or {} or {}'
+    a = 'USA'
+    b = 'UK'
+    c = 'India'
+    output = region.format(a, b, c)
+    print(output)
+
+     
+     
      
