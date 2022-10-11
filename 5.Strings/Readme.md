@@ -49,6 +49,13 @@
     output = region.format(a, b, c)
     print(output)
 
-     
+## Quotes issue
+
+    a = "my name is "kishore""   #gives error
+    
+    a = 'my name is "ksihore"'
+    a = "my name is /"ksihore"/"
+    
+## 
      
      
