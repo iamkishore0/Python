@@ -42,3 +42,16 @@
      <= Lesser than or Equal to
      == Equal to
      != Not equal to
+
+## Logical Operators OR - Greater than zero is true - Addition
+    
+     True or True
+     True or False
+     False or True
+     False or False
+     
+## Logical Operators AND - Greater than zero is true - Multiplication
+     True or True
+     True or False
+     False or True
+     False or False
