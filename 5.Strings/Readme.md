@@ -54,11 +54,12 @@
     a = "my name is "kishore""   #gives error
     
     a = 'my name is "ksihore"'
-    a = "my name is /"ksihore"/"
+    a = "my name is \"kishore\""
     
 ## Back Slash
 
-    a = 'Hello /nWorld'
+    a = 'Hello \nWorld'
+    print(a)
    
    
 ## String Functions
