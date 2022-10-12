@@ -15,7 +15,7 @@
      b(::-1)
      len(b)
      
-## Tuple is immuratble - we cannot alter content in Tuple
+## Tuples is immutable - we cannot alter the content in Tuple
      b = (5, 2.5, True, 'xyz')
      
      b.append(99) #Error
