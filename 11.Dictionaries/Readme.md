@@ -25,3 +25,15 @@
    Chaning value of Brand 'Benz' to 'Audi'
    
        x['Brand'] = 'Audi'
+       
+## Removing a value
+ 
+       x.pop('Region')
+       print(x)
+       
+## Empty entire directory
+       x.clear()
+       print(x)
+      
+## Delete variable
+       del a
