@@ -82,12 +82,12 @@ Funtions can be called easily with classes names
       def __init__(self):
        print('class d')
 
-   class e:
-    pass
+    class e:
+     pass
 
-   class f:
-    def __init__(self):
-     print('class b')
+    class f:
+     def __init__(self):
+      print('class b')
      
      
     class h(a,b,c,d,e,f):
