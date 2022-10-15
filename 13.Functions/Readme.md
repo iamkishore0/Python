@@ -6,6 +6,6 @@ Simple Function - Function is defined with the name called 'def'
               print('Hi')          #Here we are defining what function should do
               
           
-           my_function()            #Calling a function, here we are calling my_function()
+           my_function()            #Calling a function, here we are calling my_function(), It will print 'Hi'
           
    
