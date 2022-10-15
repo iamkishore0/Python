@@ -20,3 +20,8 @@
 
        x['Manfacturing_Year'] = '2009'
        print(x)
+
+## Manipulating Values
+   Chaning value of Brand 'Benz' to 'Audi'
+   
+       x['Brand'] = 'Audi'
