@@ -90,20 +90,20 @@ Funtions can be called easily with classes names
        print('class b')
      
      
-   class h(a,b,c,d,e,f):
-    def __init__(self):
-      super().__init__()
-      
-     h()
-     
-   class h(b,a,c,d,e,f):
+    class h(a,b,c,d,e,f):
      def __init__(self):
        super().__init__()
-       
-      h()
       
-    class h(c,a,b,d,e,f):
+      h()
+     
+    class h(b,a,c,d,e,f):
       def __init__(self):
         super().__init__()
-        
+       
        h()
+      
+     class h(c,a,b,d,e,f):
+       def __init__(self):
+         super().__init__()
+        
+        h()
