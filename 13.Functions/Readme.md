@@ -46,5 +46,9 @@ Mathematical
            output = Addition(5, 9)
            print(output)
 
+## Default Arguments
 
-    
+          def region_names(a = 'No_Input', b = 'No_Input'):
+              print(a, b)
+
+          region_names('Asia')
