@@ -2,8 +2,8 @@
    #Dictionaries are defined as key and values
    
          a = {'Region':'USA',
-              'Vehicle':'four wheeler'
-              'Brand':'Benz;
+              'Vehicle':'four wheeler',
+              'Brand':'Benz',
               'Model':'R1'
              }
         
