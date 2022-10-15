@@ -37,3 +37,14 @@ Mathematical
                print(a*b)
                
            Multiplcation(5, 4)
+           
+## Return_Statement - Saving the Output from function in to Variable
+
+           def Addition(x, y):
+               return x+y
+               
+           output = Addition(5, 9)
+           print(output)
+
+
+    
