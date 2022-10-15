@@ -50,12 +50,12 @@ Funtions can be called easily with classes names
     abc(6, 9)
 
 ## Inheritance
-   class X:
-    def first(self):
-     print('this is class 1')
-   class Y(X):
-     def second(self):
-      print('this is class 2')
+    class X:
+     def first(self):
+      print('this is class 1')
+    class Y(X):
+      def second(self):
+       print('this is class 2')
      
     a = X()
     a.first()
