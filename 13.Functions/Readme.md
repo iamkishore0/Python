@@ -52,3 +52,15 @@ Mathematical
               print(a, b)
 
           region_names('Asia')
+          
+          
+## Targeted Parameters
+          def portfolio(name, age, current_position):
+              print('my_name_is: ',name,' Iam',age,'years_of_old','and Iam :',current_position)
+              
+          portfolio('kishore', 25, ' devops engineer')
+          
+          portfolio(age='25', name='yaswanth', current_position ='data analyst')
+          
+          
+## 
