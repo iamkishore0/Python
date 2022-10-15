@@ -1,4 +1,4 @@
-## Classes - 
+## Classes 
 Classes are defined as Blueprint or Overall picture, 
 Funtions can be called easily with classes names
  
@@ -15,3 +15,16 @@ Funtions can be called easily with classes names
          
       b = func2()
       a.my_name('kishore')
+
+## Variables in Classes
+      
+      class var:
+        a = 6
+        b = 'India'
+        c = '8.1'
+        d = True
+        
+      print(var.a)
+      print(var.b)
+      print(var.c)
+      print(var.d)
