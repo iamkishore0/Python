@@ -6,6 +6,12 @@ Funtions can be called easily with classes names
       def names(self):     #functions defined under classes expects atleast one arguement, here self is the arguement, We can give any name for arguement
         print('kishore')
                    
-     a = func1():
+     a = func1()
      a.names()
                 
+     class func2:
+       def my_name(self, r):
+         print('my name is:', r)
+         
+      b = func2()
+      a.my_name('kishore')
