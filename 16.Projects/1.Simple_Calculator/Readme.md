@@ -1,6 +1,6 @@
 ## Simple Calculator
 
-a = int(input('please input first number: '))
+   a = int(input('please input first number: '))
 b = int(input('please input second number: '))
 c = int(input('please select operator: \n1. (+) Addition, \n2. (-) Subtration, \n3. (*) Multiplication, \n4. (/) Diviion, \n5. (**) Power, \n6. (%) Modulus, \n7. (//) quotient'))
 
