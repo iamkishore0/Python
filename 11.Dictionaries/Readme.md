@@ -52,6 +52,7 @@ Print Values
         print(x[i])
         
 Print both Keys and Values
-      for i in x:
-        print(i,  x[i])
+
+       for i in x:
+         print(i,  x[i])
        
