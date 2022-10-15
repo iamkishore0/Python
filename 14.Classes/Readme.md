@@ -67,27 +67,27 @@ Funtions can be called easily with classes names
     
     
 ## Constructor with Inheritance
-   class a:
-    def __init__(self):
-     print('class a')
-
-   class b:
-    def __init__(self):
-      print('class b')
-
-   class c:
-     pass
-
-   class d:
+    class a:
      def __init__(self):
-       print('class d')
+      print('class a')
 
-   class e:
-     pass
+    class b:
+     def __init__(self):
+       print('class b')
 
-   class f:
-    def __init__(self):
-      print('class b')
+    class c:
+      pass
+
+    class d:
+      def __init__(self):
+        print('class d')
+
+    class e:
+      pass
+
+    class f:
+     def __init__(self):
+       print('class b')
      
      
    class h(a,b,c,d,e,f):
