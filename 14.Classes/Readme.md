@@ -47,7 +47,7 @@ Funtions can be called easily with classes names
      def __init__(self,a,b):
        print(a+b)
         
-   abc(6, 9)
+    abc(6, 9)
 
 ## Inheritance
    class X:
