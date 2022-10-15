@@ -41,3 +41,10 @@ Funtions can be called easily with classes names
       b.xyz(6,7)
       print(b.x,b.y,b.z)
 
+## The __init__ Constructor
+
+    class abc:
+      def __init__(self,a,b):
+        print(a+b)
+        
+    abc(6, 9)
