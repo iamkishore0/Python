@@ -43,7 +43,7 @@ Funtions can be called easily with classes names
 
 ## The __init__ Constructor
 
-   class abc:
+    class abc:
      def __init__(self,a,b):
        print(a+b)
         
