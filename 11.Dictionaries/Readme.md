@@ -9,5 +9,11 @@
         
          type(a)
 
-## Accessing Directory
+## Accessing Dictionary
+       print(a['Region'])
+       print(a['vehicle'])
+       print(a['Brand'])
+       print(a['model'])
+       
+  
         
