@@ -18,7 +18,7 @@ Funtions can be called easily with classes names
 
 ## Variables in Classes
       
-      class var:
+    class var:
         a = 6
         b = 'India'
         c = '8.1'
