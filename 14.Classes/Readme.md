@@ -28,3 +28,16 @@ Funtions can be called easily with classes names
       print(var.b)
       print(var.c)
       print(var.d)
+      
+      
+      class var:
+       def xyz(self, x, y):
+        self.x = x
+        self.y = y
+        self.z = 9
+
+
+      b = var()
+      b.xyz(6,7)
+      print(b.x,b.y,b.z)
+
