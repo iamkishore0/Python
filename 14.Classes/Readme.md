@@ -19,41 +19,41 @@ Funtions can be called easily with classes names
 ## Variables in Classes
       
     class var:
-        a = 6
-        b = 'India'
-        c = '8.1'
-        d = True
+       a = 6
+       b = 'India'
+       c = '8.1'
+       d = True
         
-      print(var.a)
-      print(var.b)
-      print(var.c)
-      print(var.d)
+    print(var.a)
+    print(var.b)
+    print(var.c)
+    print(var.d)
       
       
-     class var:
-       def xyz(self, x, y):
+    class var:
+      def xyz(self, x, y):
         self.x = x
         self.y = y
         self.z = 9
 
 
-      b = var()
-      b.xyz(6,7)
-      print(b.x,b.y,b.z)
+     b = var()
+     b.xyz(6,7)
+     print(b.x,b.y,b.z)
 
 ## The __init__ Constructor
 
-    class abc:
-      def __init__(self,a,b):
-        print(a+b)
+   class abc:
+     def __init__(self,a,b):
+       print(a+b)
         
-    abc(6, 9)
+   abc(6, 9)
 
 ## Inheritance
-    class X:
-     def first(self):
-      print('this is class 1')
-    class Y(X):
+   class X:
+    def first(self):
+     print('this is class 1')
+   class Y(X):
      def second(self):
       print('this is class 2')
      
@@ -67,43 +67,43 @@ Funtions can be called easily with classes names
     
     
 ## Constructor with Inheritance
-    class a:
-     def __init__(self):
-      print('class a')
+   class a:
+    def __init__(self):
+     print('class a')
 
-    class b:
-     def __init__(self):
+   class b:
+    def __init__(self):
       print('class b')
 
-    class c:
+   class c:
      pass
 
-    class d:
-      def __init__(self):
+   class d:
+     def __init__(self):
        print('class d')
 
-    class e:
+   class e:
      pass
 
-    class f:
-     def __init__(self):
+   class f:
+    def __init__(self):
       print('class b')
      
      
-    class h(a,b,c,d,e,f):
-     def __init__(self):
+   class h(a,b,c,d,e,f):
+    def __init__(self):
       super().__init__()
       
      h()
      
-     class h(b,a,c,d,e,f):
-      def __init__(self):
+   class h(b,a,c,d,e,f):
+     def __init__(self):
        super().__init__()
        
       h()
       
-      class h(c,a,b,d,e,f):
-       def __init__(self):
+    class h(c,a,b,d,e,f):
+      def __init__(self):
         super().__init__()
         
        h()
