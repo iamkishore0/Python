@@ -48,3 +48,21 @@ Funtions can be called easily with classes names
         print(a+b)
         
     abc(6, 9)
+
+## Inheritance
+   class X:
+    def first(self):
+     print('this is class 1')
+   class Y(X):
+    def second(self):
+     print('this is class 2')
+     
+    a = X()
+    a.first()
+    
+    b = Y()
+    b.second()
+    
+    b.first()
+    
+    
