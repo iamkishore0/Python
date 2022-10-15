@@ -30,7 +30,7 @@ Funtions can be called easily with classes names
       print(var.d)
       
       
-      class var:
+     class var:
        def xyz(self, x, y):
         self.x = x
         self.y = y
