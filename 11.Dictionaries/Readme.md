@@ -37,3 +37,21 @@
       
 ## Delete variable
        del a
+       
+       
+## Looping
+Print Keys
+
+      for i in x:
+        print(i)
+        
+        
+Print Values
+      
+      for i in x:
+        print(x[i])
+        
+Print both Keys and Values
+      for i in x:
+        print(i,  x[i])
+       
