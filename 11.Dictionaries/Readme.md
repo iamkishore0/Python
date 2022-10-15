@@ -1,5 +1,5 @@
 ## Dictionaries
-   #Dictionaries are defined as key and values
+   Dictionaries are defined as key and values
    
          a = {'Region':'USA',
               'Vehicle':'four wheeler',
