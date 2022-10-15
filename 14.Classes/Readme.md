@@ -66,3 +66,44 @@ Funtions can be called easily with classes names
     b.first()
     
     
+## Constructor with Inheritance
+    class a:
+     def __init__(self):
+      print('class a')
+
+    class b:
+     def __init__(self):
+      print('class b')
+
+   class c:
+    pass
+
+   class d:
+     def __init__(self):
+      print('class d')
+
+   class e:
+    pass
+
+   class f:
+    def __init__(self):
+     print('class b')
+     
+     
+    class h(a,b,c,d,e,f):
+     def __init__(self):
+      super().__init__()
+      
+     h()
+     
+     class h(b,a,c,d,e,f):
+      def __init__(self):
+       super().__init__()
+       
+      h()
+      
+      class h(c,a,b,d,e,f):
+       def __init__(self):
+        super().__init__()
+        
+       h()
