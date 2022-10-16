@@ -3,10 +3,10 @@
       type(mylist)
       
 ## Sclicing Operation
-     mylist(0)
-     mylist(2)
-     mylist(::-1)
-     len(mylist)
+     mylist[0]
+     mylist[2]
+     mylist[::-1]
+     len[mylist]
 
 ## Append
      mylist.append('World')
