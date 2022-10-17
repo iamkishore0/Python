@@ -33,8 +33,8 @@
             print(f + str(quotient))
 
         exit_calculator = input('exit_calculator? (yes/no): ')
-         if exit_calculator == 'yes':
-            break
+        if exit_calculator == 'yes':
+          break
 
     else:
         print('Invalid_Input')
