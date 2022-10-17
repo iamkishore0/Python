@@ -2,7 +2,7 @@
     b = int(input('please input second number: '))
     c = int(input('please select operator: \n1. (+) Addition, \n2. (-) Subtration, \n3. (*) Multiplication, \n4. (/) Diviion, \n5. (**) Power, \n6. (%) Modulus, \n7. (//) quotient'))
 
-    def my_calculator:
+    def calculator():
         if c == 1:
             Addition = (a+b)
             f = 'Your answer is : '
@@ -31,12 +31,8 @@
             quotient = (a//b)
             f = 'Your answer is : '
             print(f + str(quotient))
-
-        
-
         else:
             print('Invalid_Input')
-    for i in range(3):
-        my_calculator()        
 
-    
+    for i in range(4):
+        calculator()
