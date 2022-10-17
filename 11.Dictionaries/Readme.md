@@ -7,7 +7,7 @@
               'Model':'R1'
              }
         
-         type(a)
+         type(x)
 
 ## Accessing Dictionary
        print(x['Region'])
