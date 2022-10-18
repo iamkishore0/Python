@@ -18,8 +18,8 @@ Simple Function - Function is defined with the name called 'def'
            name('kishore')
            
            
-## Mupltiple Arguments
- ##Strings
+## Mupltiple Arguments- Strings
+
            def Names(name1, name2):
                 print(Names)
                
