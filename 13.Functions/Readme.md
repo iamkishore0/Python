@@ -19,7 +19,7 @@ Simple Function - Function is defined with the name called 'def'
            
            
 ## Mupltiple Arguments
-Strings
+ ##Strings
            def Names(name1, name2):
                 print(Names)
                
