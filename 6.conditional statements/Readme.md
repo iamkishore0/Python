@@ -51,7 +51,7 @@
      False or False
      
 ## Logical Operators AND - Greater than zero is true - Multiplication
-     True or True
-     True or False
-     False or True
-     False or False
+     True and True
+     True and False
+     False and True
+     False and False
